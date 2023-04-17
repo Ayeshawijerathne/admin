@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+ font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+    margin-bottom: 7%;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+
+}
+
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: #470c69;
+}
+
+p{
+	color: #555;
+}
+
+
+
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+    
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	color: #330E49;
+    
+
+}
+
+.header{
+	background: radial-gradient(#e582f9,#ffd6d6);
+    font-weight: bold;
+}
+
+.header .row{
+	margin-top: 70px;
+}
+
+
+
+
+.container h2 {
+    margin-top: 30% ;
+	font-size: 30px;
+	font-weight: bold;
+    color: indigo;
+    max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-4{
+	flex-basis: 20%;
+	min-width: 300px;
+    margin-top: 4%;
+    background-color: rgb(224, 193, 236);
+    padding: 3%;
+    text-align: center;
+   
+    
+}
+
+
+
+
+
+
+/*----------- Manage Admin------------*/
+
+
+
+
+.table{
+   
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid purple;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+
+.table2{
+    width: 40%;
+}
+
+
+
+.btn-primary{
+    background-color: rgb(197, 186, 201);
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+	margin-right: 2%;
+
+}
+
+.btn-primary:hover{
+    background-color: #330E49;
+    color: white;
+}
+
+
+.btn-secondary{
+    background-color: rgb(179, 148, 190);
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2%;
+
+}
+
+.btn-secondary:hover{
+    background-color: #7421a4;
+    color: white;
+}
+
+.btn-danger{
+    background-color: rgb(192, 12, 12);
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+   
+
+}
+
+.btn-danger:hover{
+    background-color: #690909;
+    color: white;
+}
+
+
+
+.success{
+	color:rebeccapurple;
+}
+
+.error{
+	color: red;
+}
+
+
+/*---------- Add Admin-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+/*------- Footer-----*/
+
+
+
+.footer{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	padding-top: 50px;
+
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.footer p{
+	font-size: 15px;
+}
+
+.icons.fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 25px 0;
+}
+
+.fas fa-heart{
+	color: #f44336;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------Login-------------------*/
+
+
+
+.login{
+	width: 20%;
+	border: 2px solid purple;
+	margin: 10% auto;
+	padding: 2%;
+	text-align: center;
+}
+
+.login h2{
+	color: #783b9c;
+}
+
+
+
+
+.table4{
+	width: 20%;
+}
+
